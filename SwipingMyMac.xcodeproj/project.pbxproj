@@ -53,6 +53,7 @@
 		46E5A7D72157DC8100EDAB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46E5A7E32157DC9D00EDAB40 /* UnhandledView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnhandledView.h; sourceTree = "<group>"; };
 		46E5A7E42157DC9D00EDAB40 /* UnhandledView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnhandledView.m; sourceTree = "<group>"; };
+		46E5A7E62157E37E00EDAB40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		46E5A7A72157DC7F00EDAB40 = {
 			isa = PBXGroup;
 			children = (
+				46E5A7E62157E37E00EDAB40 /* README.md */,
 				46E5A7B22157DC7F00EDAB40 /* SwipingMyMac */,
 				46E5A7C92157DC8000EDAB40 /* SwipingMyMacTests */,
 				46E5A7D42157DC8000EDAB40 /* SwipingMyMacUITests */,
