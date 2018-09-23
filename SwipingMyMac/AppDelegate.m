@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Carbon/Carbon.h>
 
 @interface AppDelegate ()
 
@@ -16,6 +17,11 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    SetSystemUIMode(kUIModeContentSuppressed, kUIOptionDisableAppleMenu | kUIOptionDisableProcessSwitch | kUIOptionDisableHide);
+    
+    if (![self isInFullScreenMode]) {
+        [[NSApplication sharedApplication].keyWindow toggleFullScreen:self];
+    }
 }
 
 
@@ -23,5 +29,17 @@
     // Insert code here to tear down your application
 }
 
+- (BOOL) isInFullScreenMode {
+    NSApplicationPresentationOptions opts = [[NSApplication sharedApplication ] presentationOptions];
+    if ( opts & NSApplicationPresentationFullScreen) {
+       return YES;
+    }
+    return NO;
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{
+    return YES;
+}
 
 @end

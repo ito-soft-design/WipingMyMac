@@ -14,6 +14,7 @@
 		46E5A7C02157DC8000EDAB40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7BF2157DC8000EDAB40 /* main.m */; };
 		46E5A7CB2157DC8000EDAB40 /* SwipingMyMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7CA2157DC8000EDAB40 /* SwipingMyMacTests.m */; };
 		46E5A7D62157DC8000EDAB40 /* SwipingMyMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7D52157DC8000EDAB40 /* SwipingMyMacUITests.m */; };
+		46E5A7E52157DC9D00EDAB40 /* UnhandledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7E42157DC9D00EDAB40 /* UnhandledView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		46E5A7D12157DC8000EDAB40 /* SwipingMyMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipingMyMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E5A7D52157DC8000EDAB40 /* SwipingMyMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipingMyMacUITests.m; sourceTree = "<group>"; };
 		46E5A7D72157DC8100EDAB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E5A7E32157DC9D00EDAB40 /* UnhandledView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnhandledView.h; sourceTree = "<group>"; };
+		46E5A7E42157DC9D00EDAB40 /* UnhandledView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnhandledView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				46E5A7BE2157DC8000EDAB40 /* Info.plist */,
 				46E5A7BF2157DC8000EDAB40 /* main.m */,
 				46E5A7C12157DC8000EDAB40 /* SwipingMyMac.entitlements */,
+				46E5A7E32157DC9D00EDAB40 /* UnhandledView.h */,
+				46E5A7E42157DC9D00EDAB40 /* UnhandledView.m */,
 			);
 			path = SwipingMyMac;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E5A7E52157DC9D00EDAB40 /* UnhandledView.m in Sources */,
 				46E5A7B82157DC7F00EDAB40 /* ViewController.m in Sources */,
 				46E5A7C02157DC8000EDAB40 /* main.m in Sources */,
 				46E5A7B52157DC7F00EDAB40 /* AppDelegate.m in Sources */,
