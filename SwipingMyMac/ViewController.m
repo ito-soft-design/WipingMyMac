@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KioskManager.h"
 
 @implementation ViewController
 
@@ -14,6 +15,11 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear
+{
+    [[KioskManager sharedManager] becomeFullScreen];
 }
 
 
