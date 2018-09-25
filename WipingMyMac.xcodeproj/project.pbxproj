@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		46BA0081215997BB00697BD0 /* KioskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BA0080215997BB00697BD0 /* KioskManager.m */; };
-		46BA00BF215A364A00697BD0 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BA00BE215A364A00697BD0 /* WindowController.m */; };
+		46BA00CD215A922600697BD0 /* MainNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46BA00CC215A922600697BD0 /* MainNib.xib */; };
+		46BA00D0215AFB7200697BD0 /* WindowDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BA00CF215AFB7200697BD0 /* WindowDelegate.m */; };
 		46E5A7B52157DC7F00EDAB40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7B42157DC7F00EDAB40 /* AppDelegate.m */; };
 		46E5A7B82157DC7F00EDAB40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7B72157DC7F00EDAB40 /* ViewController.m */; };
 		46E5A7BA2157DC8000EDAB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E5A7B92157DC8000EDAB40 /* Assets.xcassets */; };
-		46E5A7BD2157DC8000EDAB40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E5A7BB2157DC8000EDAB40 /* Main.storyboard */; };
 		46E5A7C02157DC8000EDAB40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7BF2157DC8000EDAB40 /* main.m */; };
 		46E5A7CB2157DC8000EDAB40 /* WipingMyMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7CA2157DC8000EDAB40 /* WipingMyMacTests.m */; };
 		46E5A7D62157DC8000EDAB40 /* WipingMyMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7D52157DC8000EDAB40 /* WipingMyMacUITests.m */; };
@@ -41,6 +41,9 @@
 		46BA0080215997BB00697BD0 /* KioskManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KioskManager.m; sourceTree = "<group>"; };
 		46BA00BD215A364A00697BD0 /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
 		46BA00BE215A364A00697BD0 /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		46BA00CC215A922600697BD0 /* MainNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainNib.xib; sourceTree = "<group>"; };
+		46BA00CE215AFB7200697BD0 /* WindowDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowDelegate.h; sourceTree = "<group>"; };
+		46BA00CF215AFB7200697BD0 /* WindowDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowDelegate.m; sourceTree = "<group>"; };
 		46E5A7B02157DC7F00EDAB40 /* WipingMyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WipingMyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E5A7B32157DC7F00EDAB40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46E5A7B42157DC7F00EDAB40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +131,9 @@
 				46BA0080215997BB00697BD0 /* KioskManager.m */,
 				46BA00BD215A364A00697BD0 /* WindowController.h */,
 				46BA00BE215A364A00697BD0 /* WindowController.m */,
+				46BA00CC215A922600697BD0 /* MainNib.xib */,
+				46BA00CE215AFB7200697BD0 /* WindowDelegate.h */,
+				46BA00CF215AFB7200697BD0 /* WindowDelegate.m */,
 			);
 			path = WipingMyMac;
 			sourceTree = "<group>";
@@ -254,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46E5A7BA2157DC8000EDAB40 /* Assets.xcassets in Resources */,
-				46E5A7BD2157DC8000EDAB40 /* Main.storyboard in Resources */,
+				46BA00CD215A922600697BD0 /* MainNib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BA0081215997BB00697BD0 /* KioskManager.m in Sources */,
-				46BA00BF215A364A00697BD0 /* WindowController.m in Sources */,
 				46E5A7E52157DC9D00EDAB40 /* UnhandledView.m in Sources */,
+				46BA00D0215AFB7200697BD0 /* WindowDelegate.m in Sources */,
 				46E5A7B82157DC7F00EDAB40 /* ViewController.m in Sources */,
 				46E5A7C02157DC8000EDAB40 /* main.m in Sources */,
 				46E5A7B52157DC7F00EDAB40 /* AppDelegate.m in Sources */,
@@ -455,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.itosoft.WipingMyMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -474,7 +480,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.itosoft.WipingMyMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

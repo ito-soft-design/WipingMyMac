@@ -17,6 +17,11 @@
     // Drawing code here.
 }
 
+- (void)awakeFromNib
+{
+    [[KioskManager sharedManager] becomeFullScreen];    
+}
+
 - (BOOL)acceptsFirstResponder
 {
     return YES;

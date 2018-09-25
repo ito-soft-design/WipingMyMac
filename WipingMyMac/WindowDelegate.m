@@ -1,25 +1,15 @@
 //
-//  WindowController.m
+//  WindowDelegate.m
 //  WipingMyMac
 //
-//  Created by 伊藤ソフトデザイン on 2018/09/25.
+//  Created by 伊藤ソフトデザイン on 2018/09/26.
 //  Copyright © 2018年 ITO SOFT DESIGN. All rights reserved.
 //
 
-#import "WindowController.h"
+#import "WindowDelegate.h"
 #import "KioskManager.h"
 
-@interface WindowController ()
-
-@end
-
-@implementation WindowController
-
-- (void)windowDidLoad {
-    [super windowDidLoad];
-    
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
-}
+@implementation WindowDelegate
 
 - (void)windowDidBecomeKey:(NSNotification *)notification
 {
