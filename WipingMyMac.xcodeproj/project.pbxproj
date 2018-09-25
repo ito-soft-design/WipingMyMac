@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46BA0081215997BB00697BD0 /* KioskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BA0080215997BB00697BD0 /* KioskManager.m */; };
+		46BA00BF215A364A00697BD0 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BA00BE215A364A00697BD0 /* WindowController.m */; };
 		46E5A7B52157DC7F00EDAB40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7B42157DC7F00EDAB40 /* AppDelegate.m */; };
 		46E5A7B82157DC7F00EDAB40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A7B72157DC7F00EDAB40 /* ViewController.m */; };
 		46E5A7BA2157DC8000EDAB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E5A7B92157DC8000EDAB40 /* Assets.xcassets */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		46BA007F215997BB00697BD0 /* KioskManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KioskManager.h; sourceTree = "<group>"; };
 		46BA0080215997BB00697BD0 /* KioskManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KioskManager.m; sourceTree = "<group>"; };
+		46BA00BD215A364A00697BD0 /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		46BA00BE215A364A00697BD0 /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 		46E5A7B02157DC7F00EDAB40 /* WipingMyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WipingMyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E5A7B32157DC7F00EDAB40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46E5A7B42157DC7F00EDAB40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				46E5A7E42157DC9D00EDAB40 /* UnhandledView.m */,
 				46BA007F215997BB00697BD0 /* KioskManager.h */,
 				46BA0080215997BB00697BD0 /* KioskManager.m */,
+				46BA00BD215A364A00697BD0 /* WindowController.h */,
+				46BA00BE215A364A00697BD0 /* WindowController.m */,
 			);
 			path = WipingMyMac;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BA0081215997BB00697BD0 /* KioskManager.m in Sources */,
+				46BA00BF215A364A00697BD0 /* WindowController.m in Sources */,
 				46E5A7E52157DC9D00EDAB40 /* UnhandledView.m in Sources */,
 				46E5A7B82157DC7F00EDAB40 /* ViewController.m in Sources */,
 				46E5A7C02157DC8000EDAB40 /* main.m in Sources */,
