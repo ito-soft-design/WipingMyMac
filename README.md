@@ -9,7 +9,7 @@ Wipe your mac till satisfaction.
 
 # Downloading
 
-You can download this app from releases page.
+You can download this app from [releases page](https://github.com/ito-soft-design/WipingMyMac/releases).
 
 # License
 

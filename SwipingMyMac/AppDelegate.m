@@ -7,9 +7,12 @@
 //
 
 #import "AppDelegate.h"
-#import <Carbon/Carbon.h>
+#import "KioskManager.h"
+
 
 @interface AppDelegate ()
+
+@property (weak) IBOutlet NSWindow *window;
 
 @end
 
@@ -17,24 +20,12 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    SetSystemUIMode(kUIModeContentSuppressed, kUIOptionDisableAppleMenu | kUIOptionDisableProcessSwitch | kUIOptionDisableHide);
-    
-    if (![self isInFullScreenMode]) {
-        [[NSApplication sharedApplication].keyWindow toggleFullScreen:self];
-    }
+//    [[KioskManager sharedManager] becomeFullScreen];
 }
 
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
-}
-
-- (BOOL) isInFullScreenMode {
-    NSApplicationPresentationOptions opts = [[NSApplication sharedApplication ] presentationOptions];
-    if ( opts & NSApplicationPresentationFullScreen) {
-       return YES;
-    }
-    return NO;
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
