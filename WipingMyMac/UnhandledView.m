@@ -7,6 +7,7 @@
 //
 
 #import "UnhandledView.h"
+#import "KioskManager.h"
 
 @implementation UnhandledView
 
@@ -27,6 +28,11 @@
 
 - (void)keyUp:(NSEvent *)theEvent
 {
+}
+
+- (void)mouseDown:(NSEvent *)event
+{
+    [[KioskManager sharedManager] becomeFullScreen];    
 }
 
 @end

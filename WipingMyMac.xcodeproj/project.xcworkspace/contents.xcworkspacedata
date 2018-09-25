@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SwipingMyMac.xcodeproj">
+      location = "self:/Users/ISD/git/SwipingMyMac/WipingMyMac.xcodeproj">
    </FileRef>
 </Workspace>
